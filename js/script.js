@@ -12,5 +12,5 @@ function myButtonClicked() {
     answer += numberInput + 1
   }
 
-  document.getElementById("answer").innerHTML = answer / 2
+  document.getElementById("answer").innerHTML = "The sum of all the numbers from 1-" + numberInput + " = " + answer / 2
 }
